@@ -38,3 +38,7 @@ class LoginController extends Controller
         return response()->json(['status'=>'true','user' => Auth::id(),'token' => $token]);
     }
 }
+
+/*
+Edit this file in this git side
+*/
