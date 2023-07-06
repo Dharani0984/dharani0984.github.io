@@ -40,5 +40,5 @@ class LoginController extends Controller
 }
 
 /*
-Edit this file in this git side
+Edit this file in this git side 
 */
