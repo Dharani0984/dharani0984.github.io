@@ -26,6 +26,3 @@ class LogoutController extends Controller
     }
 }
 
-/*
-2nd Branch Changes
-*/

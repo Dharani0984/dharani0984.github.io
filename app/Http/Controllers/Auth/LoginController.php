@@ -35,7 +35,6 @@ class LoginController extends Controller
        $user = User::find(Auth::id()); // Assuming you have a user with ID 1
        $token = JWTAuth::fromUser($user);
 
-       
         return response()->json(['status'=>'true','user' => Auth::id(),'token' => $token]);
     }
 }
