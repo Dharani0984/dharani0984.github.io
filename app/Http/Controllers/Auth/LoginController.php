@@ -38,3 +38,6 @@ class LoginController extends Controller
         return response()->json(['status'=>'true','user' => Auth::id(),'token' => $token]);
     }
 }
+/*
+2nd Branch Changes
+*/

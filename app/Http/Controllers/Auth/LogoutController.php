@@ -26,3 +26,9 @@ class LogoutController extends Controller
     }
 }
 
+<<<<<<< HEAD
+=======
+/*
+2nd Branch Changes
+*/
+>>>>>>> 2ndbranch
