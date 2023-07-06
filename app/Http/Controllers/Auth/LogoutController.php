@@ -25,3 +25,7 @@ class LogoutController extends Controller
         return response()->json(['user'=> Auth::id(),'message' => 'Logged out successfully']);
     }
 }
+
+/*
+2nd Branch Changes
+*/
